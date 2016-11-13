@@ -1,24 +1,34 @@
 ﻿using UnityEngine;
+using System;
 using System.Collections;
 
 public class HTTPManager : MonoBehaviour
 {
-	string imageAsString;
+	static string imageAsString;
+	public static bool hasRun = false;
 
-	public HTTPManager (byte[] imageData)
+	public static void setImage (byte[] imageData)
 	{
-		imageAsString = System.Text.Encoding.UTF8.GetString(imageData);
+		imageAsString = Convert.ToBase64String (imageData);
 	}
 
-	public void run ()
-	{
-		string url = "http://example.com/script.php";
+	void Start() {
 
-		WWWForm form = new WWWForm ();
-		form.AddField ("img", imageAsString);
-//		WWW www = new WWW (url, form);
-//		StartCoroutine (WaitForRequest (www));
-		LoadObjects.jsonString = "hi";
+	}
+
+	void Update ()
+	{
+		if (imageAsString != null && !hasRun) {
+			hasRun = true;
+			string url = "metropolis.black/infer";
+			print (imageAsString);
+
+			WWWForm form = new WWWForm ();
+			form.AddField ("img", imageAsString);
+			form.AddField ("num_boxes", 1);
+			WWW www = new WWW ("https://" + url, form);
+			StartCoroutine (WaitForRequest (www));
+		}
 	}
 
 	IEnumerator WaitForRequest (WWW www)

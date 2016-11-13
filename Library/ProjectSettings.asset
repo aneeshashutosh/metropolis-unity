@@ -6,7 +6,7 @@ PlayerSettings:
   serializedVersion: 8
   productGUID: 188ac6605e6cc45cdb82b0bc47397c90
   AndroidProfiler: 0
-  defaultScreenOrientation: 4
+  defaultScreenOrientation: 3
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60

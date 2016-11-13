@@ -3,7 +3,8 @@
 public class ClickDetector:MonoBehaviour
 {
 	public int button = 0;
-	public float clickSize = 50;
+	public float clickSize = 20;
+	static ClickManager clickManager = new ClickManager();
 
 	void ClickHappened ()
 	{
@@ -22,6 +23,9 @@ public class ClickDetector:MonoBehaviour
 			pos = Input.mousePosition;
 
 		if (Input.GetMouseButtonUp (button)) {
+			if (clickManager.DoubleClick()) {
+				LoadObjects.Reset ();
+			}
 			var delta = Input.mousePosition - pos;
 			if (delta.sqrMagnitude < clickSize * clickSize)
 				ClickHappened ();

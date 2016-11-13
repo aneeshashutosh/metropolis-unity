@@ -1,0 +1,384 @@
+--------- beginning of main
+--------- beginning of system
+11-13 00:34:51.580 23853 23868 I VrApi   : ----------- vrapi_Initialize ----------
+11-13 00:34:51.580 23853 23868 D VrApi   : onInitialize
+11-13 00:34:51.590 23853 23868 D VrApi   : VrApi::getScenario: 1
+11-13 00:34:51.600 23853 23868 I OVR     : Couldn't open /sdcard/.oculusprefs
+11-13 00:34:51.600 23853 23868 D VrApi   : hasVrPermissions
+11-13 00:34:51.620 23853 23868 D VrApi   : getDeviceProperty: device_model
+11-13 00:34:51.630 23853 23868 D VrApi   : getVrHelperProperty: hmt_device_model: SM-R323
+11-13 00:34:51.630 23853 23868 D VrApi   : getDeviceProperty: replace_samsung
+11-13 00:34:51.630 23853 23868 D VrApi   : VrApi::getScenario: 1
+11-13 00:34:51.630 23853 23868 D VrApi   : getDeviceProperty: device_gpu
+11-13 00:34:51.630 23853 23868 D VrApi   : getDeviceProperty: device_support_sdcard_path
+11-13 00:34:51.640 23853 23868 I OVR     : Couldn't open /sdcard/.oculusprefs
+11-13 00:34:51.640 10793 11069 D VRSVC   : (DistortionFileProvider.java:70) openAssetFile [Uri=content://com.samsung.android.hmt.vrsvc.distortion mode=r model=SM-R323]
+11-13 00:34:51.640 10793 11069 V VRSVC   : (DistortionFileManager.java:104) wtkw [vr model=SM-R323 device=SAMSUNG-SM-G920A distortion=distortion/distortion_R323_G920.bin]
+11-13 00:34:51.640 10793 11069 V VRSVC   : (DistortionFileManager.java:54) yTqX [fileName=distortion/distortion_R323_G920.bin]
+11-13 00:34:51.650 10793 11069 V VRSVC   : (DistortionFileManager.java:140) yTqX [copyAssetToFile.. assetPath=distortion/distortion_R323_G920.bin file=/data/user/0/com.samsung.android.hmt.vrsvc/cache/distortion/distortion_R323_G920.bin overWrite=true]
+11-13 00:34:51.650 10793 11069 V VRSVC   : (DistortionFileManager.java:145) yTqX [delete /data/user/0/com.samsung.android.hmt.vrsvc/cache/distortion/distortion_R323_G920.bin]
+11-13 00:34:51.660 23853 23868 I VrApi   : ---------- vrapi_EnterVrMode [start] ----------
+11-13 00:34:51.660 23853 23868 I OVR     : DeviceManagerThread::AddSelectFd 40 (Tid=6488169)
+11-13 00:34:51.660 23853 23935 I OVR     : DeviceManagerThread - running (Tid=6488169).
+11-13 00:34:51.660 23853 23868 I OVR     : OVR::DeviceManager - initialized.
+11-13 00:34:51.660 23853 23868 I OVR     : DeviceManager::CreatePhoneDevice()
+11-13 00:34:51.660 23853 23868 I OVR     : PhoneManagerThread::AddSelectFd 42 (Tid=0)
+11-13 00:34:51.660 23853 23936 I OVR     : PhoneManagerThread - running (Tid=23936).
+11-13 00:34:51.660 23853 23868 I OVR     : PhoneSensors::PhoneSensors()
+11-13 00:34:51.660 23853 23868 I OVR     : DeviceManager::SetPhoneSensorDeviceImpl
+11-13 00:34:51.660 23853 23868 D VrApi   : targetSDKVersion 23
+11-13 00:34:51.660 23853 23868 I VrApi   : DEVICE MODEL NUMBER = SAMSUNG-SM-G920A
+11-13 00:34:51.660 23853 23868 I VrApi   : DEVICE HARDWARE = samsungexynos7420
+11-13 00:34:51.660 23853 23868 I VrApi   : DEVICE BUILD NAME = MMB29K.G920AUCS5DPJ1
+11-13 00:34:51.660 23853 23868 I VrApi   : DEVICE BUILD TYPE = user
+11-13 00:34:51.660 23853 23868 I VrApi   : DEVICE OS VERSION = 6.0.1
+11-13 00:34:51.660 23853 23868 I VrApi   : VRAPI VERSION = 1.0.4.1-293889-41586955 Oct 14 2016 14:14:35 Development RELEASE
+11-13 00:34:51.660 23853 23868 I VrApi   : VRAPI LOADER VERSION = 1.0.3.4
+11-13 00:34:51.660 23853 23868 I VrApi   : APP NAME = Metropolis
+11-13 00:34:51.660 23853 23868 I VrApi   : APP VERSION = 1.0 versionCode 1 internalVersionName <none>
+11-13 00:34:51.660 23853 23868 I VrApi   : APP VR TYPE = vr_only
+11-13 00:34:51.660 23853 23868 I VrApi   : APP PACKAGE NAME = com.yhack.metropolis
+11-13 00:34:51.660 23853 23868 I VrApi   : APP ACTIVITY CLASS = com.unity3d.player.UnityPlayerActivity
+11-13 00:34:51.660 23853 23868 I VrApi   : ovrModeParms::VRAPI_MODE_FLAG_ALLOW_POWER_SAVE = 1
+11-13 00:34:51.660 23853 23868 I VrApi   : ovrModeParms::VRAPI_MODE_FLAG_RESET_WINDOW_FULLSCREEN = 1
+11-13 00:34:51.660 23853 23868 I VrApi   : ovrModeParms::VRAPI_MODE_FLAG_NATIVE_WINDOW = 1
+11-13 00:34:51.660 23853 23868 I VrApi   : ovrModeParms::VRAPI_MODE_FLAG_FRONT_BUFFER_PROTECTED = 0
+11-13 00:34:51.660 23853 23868 I VrApi   : ovrModeParms::VRAPI_MODE_FLAG_FRONT_BUFFER_565 = 0
+11-13 00:34:51.660 23853 23868 I VrApi   : ovrModeParms::VRAPI_MODE_FLAG_FRONT_BUFFER_SRGB = 0
+11-13 00:34:51.660 23853 23868 I OVR     : Couldn't open /sdcard/.oculusprefs
+11-13 00:34:51.660 23853 23868 I VrApi   : HMD sensor attached.
+11-13 00:34:51.660 23853 23868 I VrApi   : ovr_RegisterStatsReceivers
+11-13 00:34:51.670 23853 23936 I OVR     : PhoneSensors::GetLatestAccGyroMagBiasValue: initializing queue
+11-13 00:34:51.670 23853 23868 I VrApi   : nativeHeadsetEvent(0)
+11-13 00:34:51.670 23853 23868 I VrApi   : nativeGamepadListener(0)
+11-13 00:34:51.670 23853 23868 I VrApi   : OVR::Clocks thread started
+11-13 00:34:51.670 23853 23937 D VrApi   : getDeviceProperty: device_gpu
+11-13 00:34:51.670 23853 23938 D VrApi   : getDeviceProperty: device_gpu
+11-13 00:34:51.680 23853 23938 I OVR     : Couldn't open /sdcard/.oculusprefs
+11-13 00:34:51.690 10793 10803 D VRSVC   : (DistortionFileProvider.java:70) openAssetFile [Uri=content://com.samsung.android.hmt.vrsvc.distortion mode=r model=SM-R323]
+11-13 00:34:51.690 10793 10803 V VRSVC   : (DistortionFileManager.java:104) wtkw [vr model=SM-R323 device=SAMSUNG-SM-G920A distortion=distortion/distortion_R323_G920.bin]
+11-13 00:34:51.690 10793 10803 V VRSVC   : (DistortionFileManager.java:54) yTqX [fileName=distortion/distortion_R323_G920.bin]
+11-13 00:34:51.690 10793 10803 V VRSVC   : (DistortionFileManager.java:140) yTqX [copyAssetToFile.. assetPath=distortion/distortion_R323_G920.bin file=/data/user/0/com.samsung.android.hmt.vrsvc/cache/distortion/distortion_R323_G920.bin overWrite=true]
+11-13 00:34:51.690 10793 10803 V VRSVC   : (DistortionFileManager.java:145) yTqX [delete /data/user/0/com.samsung.android.hmt.vrsvc/cache/distortion/distortion_R323_G920.bin]
+11-13 00:34:51.700 23853 23868 I VrApi   : OVR::Stats thread started
+11-13 00:34:51.700 23853 23939 D VrApi   : getDeviceProperty: device_gpu
+11-13 00:34:51.700 23853 23937 D VrApi   : Available levels: {GPU MIN, GPU MAX, CPU MIN, CPU MAX}
+11-13 00:34:51.700 23853 23937 D VrApi   : -> / 0
+11-13 00:34:51.700 23853 23937 D VrApi   : -> / 3
+11-13 00:34:51.700 23853 23937 D VrApi   : -> / 0
+11-13 00:34:51.700 23853 23937 D VrApi   : -> / 3
+11-13 00:34:51.700 23853 23937 D VrApi   : setSystemPerformance cpu: 2 gpu: 2
+11-13 00:34:51.710 23853 23939 D VrApi   : VrApi::isWifiConnected exception: Make sure android.permission.ACCESS_NETWORK_STATE is set in the manifest.
+11-13 00:34:51.710 23853 23939 D VrApi   : targetSDKVersion 23
+11-13 00:34:51.720 23853 23939 D VrApi   : getVrHelperProperty: vr_serial: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+11-13 00:34:51.730 23853 23868 D VrApi   : setSchedFifoStatic tid:23935 pto:2
+11-13 00:34:51.740 23853 23939 D VrApi   : getVrHelperProperty: hmt_device_model: SM-R323
+11-13 00:34:51.740 23853 23868 D VrApi   : setSchedFifoStatic tid:23938 pto:3
+11-13 00:34:51.750 23853 23868 D VrApi   : getSystemBrightness
+11-13 00:34:51.750 23853 23937 D VrApi   : releaseSystemPerformanceStatic
+11-13 00:34:51.760 23853 23868 I VrApi   : System brightness = 180
+11-13 00:34:51.760 23853 23868 D VrApi   : setSystemBrightness 180
+11-13 00:34:51.770 23853 23868 I VrApi   : Set brightness to 180
+11-13 00:34:51.770 23853 23868 D VrApi   : getDoNotDisturbMode 
+11-13 00:34:51.770 23853 23868 I VrApi   : Set DND mode to false
+11-13 00:34:51.770 23853 23868 D VrApi   : setDoNotDisturbMode false
+11-13 00:34:51.780 23853 23868 I VrApi   : System DND mode = false
+11-13 00:34:51.780 23853 23868 I VrApi   : ---------- vrapi_EnterVrMode [end] ----------
+11-13 00:34:51.780 23853 23853 D VrApi   : getWindow().addFlags( WindowManager.LayoutParams.FLAG_FULLSCREEN )
+11-13 00:34:51.830 23853 23868 W VrApi   : Time to first swap: 0.258 seconds
+11-13 00:34:51.830 23853 23868 W VrApi   : out of order frame index (prev = 0, new = 0)
+11-13 00:34:51.830 23853 23937 D VrApi   : Available levels: {GPU MIN, GPU MAX, CPU MIN, CPU MAX}
+11-13 00:34:51.830 23853 23937 D VrApi   : -> / 0
+11-13 00:34:51.830 23853 23937 D VrApi   : -> / 3
+11-13 00:34:51.830 23853 23937 D VrApi   : -> / 0
+11-13 00:34:51.830 23853 23937 D VrApi   : -> / 3
+11-13 00:34:51.830 23853 23937 D VrApi   : setSystemPerformance cpu: 2 gpu: 2
+11-13 00:34:51.880 23853 23938 D VrApi   : setSchedFifoStatic tid:23868 pto:1
+11-13 00:34:51.890 23853 23938 D VrApi   : setSchedFifoStatic tid:23868 pto:1
+11-13 00:34:52.660 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,996) = 0 (Tid=23935)
+11-13 00:34:52.770 23853 23939 I VrApi   : FPS=0,Prd=0ms,Tear=0,Early=0,Stale=0,VSnc=0,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1264MHz,Free=719MB,PSM=0,PLS=0,Temp=29.1C/30.0C
+11-13 00:34:53.660 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:34:53.760 23853 23939 I VrApi   : FPS=22,Prd=42ms,Tear=2,Early=17,Stale=5,VSnc=1,Lat=1,CPU4/GPU=2/2,900/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=722MB,PSM=0,PLS=0,Temp=29.1C/30.0C
+11-13 00:34:54.280 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:34:54.660 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:34:54.760 23853 23939 I VrApi   : FPS=59,Prd=52ms,Tear=0,Early=59,Stale=0,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=722MB,PSM=0,PLS=0,Temp=29.1C/30.0C
+11-13 00:34:55.660 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:34:55.760 23853 23939 I VrApi   : FPS=54,Prd=50ms,Tear=0,Early=51,Stale=6,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=722MB,PSM=0,PLS=0,Temp=29.1C/30.0C
+11-13 00:34:56.440 23853 23938 D VrApi   : setSchedFifoStatic tid:23868 pto:0
+11-13 00:34:56.450 23853 23938 D VrApi   : setSchedFifoStatic tid:23868 pto:0
+11-13 00:34:56.660 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:34:56.760 23853 23939 I VrApi   : FPS=59,Prd=52ms,Tear=0,Early=59,Stale=0,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/N/N,Mem=1026MHz,Free=717MB,PSM=0,PLS=0,Temp=29.1C/30.0C
+11-13 00:34:56.870 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:34:57.100 23853 23938 D VrApi   : setSchedFifoStatic tid:23868 pto:1
+11-13 00:34:57.100 23853 23938 D VrApi   : setSchedFifoStatic tid:23868 pto:1
+11-13 00:34:57.660 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:34:57.760 23853 23939 I VrApi   : FPS=60,Prd=52ms,Tear=0,Early=60,Stale=0,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1264MHz,Free=638MB,PSM=0,PLS=0,Temp=29.1C/30.0C
+11-13 00:34:58.660 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:34:58.760 23853 23939 I VrApi   : FPS=11,Prd=45ms,Tear=3,Early=7,Stale=50,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=640MB,PSM=0,PLS=0,Temp=29.1C/30.0C
+11-13 00:34:59.460 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:34:59.660 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:34:59.760 23853 23939 I VrApi   : FPS=26,Prd=46ms,Tear=0,Early=0,Stale=40,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=639MB,PSM=0,PLS=0,Temp=29.1C/30.0C
+11-13 00:35:00.660 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:00.760 23853 23939 I VrApi   : FPS=26,Prd=46ms,Tear=0,Early=0,Stale=43,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=639MB,PSM=0,PLS=0,Temp=29.1C/30.0C
+11-13 00:35:01.660 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:01.770 23853 23939 I VrApi   : FPS=28,Prd=47ms,Tear=0,Early=0,Stale=45,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=638MB,PSM=0,PLS=0,Temp=29.2C/30.0C
+11-13 00:35:02.060 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:35:02.670 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:02.770 23853 23939 I VrApi   : FPS=28,Prd=47ms,Tear=0,Early=0,Stale=45,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=640MB,PSM=0,PLS=0,Temp=29.2C/30.0C
+11-13 00:35:02.850 23853 23936 I OVR     : PhoneSensors: detected Android mag calibration (66.800 54.000 -46.800).
+11-13 00:35:03.670 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:03.760 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=0,Early=0,Stale=44,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=639MB,PSM=0,PLS=0,Temp=29.2C/30.0C
+11-13 00:35:04.660 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:35:04.670 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:04.760 23853 23939 I VrApi   : FPS=26,Prd=46ms,Tear=1,Early=0,Stale=42,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=640MB,PSM=0,PLS=0,Temp=29.2C/30.0C
+11-13 00:35:05.670 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:05.760 23853 23939 I VrApi   : FPS=28,Prd=46ms,Tear=0,Early=0,Stale=48,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=639MB,PSM=0,PLS=0,Temp=29.2C/30.0C
+11-13 00:35:06.670 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:06.760 23853 23939 I VrApi   : FPS=27,Prd=47ms,Tear=0,Early=0,Stale=43,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=639MB,PSM=0,PLS=0,Temp=29.2C/30.0C
+11-13 00:35:07.260 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:35:07.670 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:07.760 23853 23939 I VrApi   : FPS=26,Prd=46ms,Tear=0,Early=0,Stale=42,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=639MB,PSM=0,PLS=0,Temp=29.2C/30.0C
+11-13 00:35:08.670 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:08.770 23853 23939 I VrApi   : FPS=27,Prd=46ms,Tear=0,Early=0,Stale=43,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=639MB,PSM=0,PLS=0,Temp=29.2C/30.0C
+11-13 00:35:09.670 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:09.760 23853 23939 I VrApi   : FPS=28,Prd=47ms,Tear=0,Early=0,Stale=43,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=640MB,PSM=0,PLS=0,Temp=29.2C/30.0C
+11-13 00:35:09.860 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:35:09.960 23853 23936 I OVR     : PhoneSensors: detected Android mag calibration (66.800 45.200 -43.200).
+11-13 00:35:10.020 23853 23938 D VrApi   : setSchedFifoStatic tid:23868 pto:0
+11-13 00:35:10.020 23853 23938 D VrApi   : setSchedFifoStatic tid:23868 pto:0
+11-13 00:35:10.350 23853 23938 D VrApi   : setSchedFifoStatic tid:23868 pto:1
+11-13 00:35:10.360 23853 23938 D VrApi   : setSchedFifoStatic tid:23868 pto:1
+11-13 00:35:10.670 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:10.770 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=0,Early=0,Stale=40,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=633MB,PSM=0,PLS=0,Temp=29.2C/30.0C
+11-13 00:35:11.670 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:11.760 23853 23939 I VrApi   : FPS=20,Prd=47ms,Tear=1,Early=0,Stale=56,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=631MB,PSM=0,PLS=0,Temp=29.3C/30.0C
+11-13 00:35:12.460 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:35:12.670 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:12.760 23853 23939 I VrApi   : FPS=25,Prd=45ms,Tear=1,Early=0,Stale=39,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=632MB,PSM=0,PLS=0,Temp=29.3C/30.0C
+11-13 00:35:13.670 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:13.760 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=0,Early=0,Stale=42,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=633MB,PSM=0,PLS=0,Temp=29.3C/30.0C
+11-13 00:35:14.670 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:14.770 23853 23939 I VrApi   : FPS=25,Prd=47ms,Tear=0,Early=0,Stale=42,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=633MB,PSM=0,PLS=0,Temp=29.3C/30.0C
+11-13 00:35:15.060 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:35:15.670 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:15.770 23853 23939 I VrApi   : FPS=27,Prd=47ms,Tear=0,Early=0,Stale=44,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=633MB,PSM=0,PLS=0,Temp=29.3C/30.0C
+11-13 00:35:16.670 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:16.760 23853 23939 I VrApi   : FPS=26,Prd=46ms,Tear=0,Early=0,Stale=44,VSnc=1,Lat=1,CPU4/GPU=2/2,900/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=633MB,PSM=0,PLS=0,Temp=29.3C/30.0C
+11-13 00:35:17.660 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:35:17.670 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:17.770 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=0,Early=0,Stale=38,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=633MB,PSM=0,PLS=0,Temp=29.3C/30.0C
+11-13 00:35:18.680 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:18.760 23853 23939 I VrApi   : FPS=27,Prd=46ms,Tear=0,Early=0,Stale=42,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=633MB,PSM=0,PLS=0,Temp=29.3C/30.0C
+11-13 00:35:19.680 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:19.760 23853 23939 I VrApi   : FPS=29,Prd=47ms,Tear=0,Early=0,Stale=39,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=635MB,PSM=0,PLS=0,Temp=29.3C/30.0C
+11-13 00:35:20.260 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:35:20.680 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:20.760 23853 23939 I VrApi   : FPS=27,Prd=46ms,Tear=0,Early=0,Stale=45,VSnc=1,Lat=1,CPU4/GPU=2/2,900/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=635MB,PSM=0,PLS=0,Temp=29.3C/30.0C
+11-13 00:35:21.680 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:21.760 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=0,Early=0,Stale=42,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=635MB,PSM=0,PLS=0,Temp=29.6C/30.0C
+11-13 00:35:22.680 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:22.760 23853 23939 I VrApi   : FPS=28,Prd=47ms,Tear=0,Early=0,Stale=42,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=634MB,PSM=0,PLS=0,Temp=29.6C/30.0C
+11-13 00:35:22.860 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:35:23.680 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:23.760 23853 23939 I VrApi   : FPS=26,Prd=46ms,Tear=0,Early=0,Stale=45,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=635MB,PSM=0,PLS=0,Temp=29.6C/30.0C
+11-13 00:35:24.680 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:24.770 23853 23939 I VrApi   : FPS=27,Prd=46ms,Tear=0,Early=0,Stale=42,VSnc=1,Lat=1,CPU4/GPU=2/2,900/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=634MB,PSM=0,PLS=0,Temp=29.6C/30.0C
+11-13 00:35:25.460 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:35:25.680 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:25.760 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=0,Early=0,Stale=42,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=635MB,PSM=0,PLS=0,Temp=29.6C/30.0C
+11-13 00:35:26.680 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:26.760 23853 23939 I VrApi   : FPS=27,Prd=46ms,Tear=0,Early=0,Stale=41,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=635MB,PSM=0,PLS=0,Temp=29.6C/30.0C
+11-13 00:35:27.680 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:27.760 23853 23939 I VrApi   : FPS=29,Prd=47ms,Tear=1,Early=0,Stale=45,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=635MB,PSM=0,PLS=0,Temp=29.6C/30.0C
+11-13 00:35:28.070 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:35:28.680 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:28.760 23853 23939 I VrApi   : FPS=28,Prd=47ms,Tear=0,Early=0,Stale=41,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=635MB,PSM=0,PLS=0,Temp=29.6C/30.0C
+11-13 00:35:29.680 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:29.760 23853 23939 I VrApi   : FPS=25,Prd=47ms,Tear=0,Early=0,Stale=43,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=635MB,PSM=0,PLS=0,Temp=29.6C/30.0C
+11-13 00:35:30.660 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:35:30.680 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:30.770 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=0,Early=0,Stale=44,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=634MB,PSM=0,PLS=0,Temp=29.6C/30.0C
+11-13 00:35:31.040 23853 23936 I OVR     : PhoneSensors: detected Android mag calibration (66.800 54.400 -40.000).
+11-13 00:35:31.680 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:31.760 23853 23939 I VrApi   : FPS=27,Prd=47ms,Tear=0,Early=0,Stale=42,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=634MB,PSM=0,PLS=0,Temp=29.8C/30.0C
+11-13 00:35:32.680 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:32.770 23853 23939 I VrApi   : FPS=25,Prd=46ms,Tear=0,Early=0,Stale=42,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=635MB,PSM=0,PLS=0,Temp=29.8C/30.0C
+11-13 00:35:33.260 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:35:33.690 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:33.760 23853 23939 I VrApi   : FPS=28,Prd=47ms,Tear=1,Early=0,Stale=42,VSnc=1,Lat=1,CPU4/GPU=2/2,900/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=635MB,PSM=0,PLS=0,Temp=29.8C/30.0C
+11-13 00:35:34.690 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:34.760 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=0,Early=0,Stale=41,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=635MB,PSM=0,PLS=0,Temp=29.8C/30.0C
+11-13 00:35:35.690 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:35.760 23853 23939 I VrApi   : FPS=27,Prd=47ms,Tear=0,Early=0,Stale=41,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=635MB,PSM=0,PLS=0,Temp=29.8C/30.0C
+11-13 00:35:35.860 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:35:36.690 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:36.760 23853 23939 I VrApi   : FPS=27,Prd=47ms,Tear=0,Early=0,Stale=44,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=635MB,PSM=0,PLS=0,Temp=29.8C/30.0C
+11-13 00:35:37.690 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:37.760 23853 23939 I VrApi   : FPS=27,Prd=47ms,Tear=0,Early=0,Stale=42,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=635MB,PSM=0,PLS=0,Temp=29.8C/30.0C
+11-13 00:35:38.470 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:35:38.690 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:38.760 23853 23939 I VrApi   : FPS=26,Prd=46ms,Tear=0,Early=0,Stale=45,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=635MB,PSM=0,PLS=0,Temp=29.8C/30.0C
+11-13 00:35:39.690 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:39.770 23853 23939 I VrApi   : FPS=27,Prd=47ms,Tear=0,Early=0,Stale=42,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=635MB,PSM=0,PLS=0,Temp=29.8C/30.0C
+11-13 00:35:40.690 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:40.760 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=0,Early=0,Stale=44,VSnc=1,Lat=1,CPU4/GPU=2/2,900/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=635MB,PSM=0,PLS=0,Temp=29.8C/30.0C
+11-13 00:35:41.060 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:35:41.690 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:41.760 23853 23939 I VrApi   : FPS=27,Prd=47ms,Tear=0,Early=0,Stale=45,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=635MB,PSM=0,PLS=0,Temp=29.9C/30.0C
+11-13 00:35:42.690 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:42.760 23853 23939 I VrApi   : FPS=27,Prd=47ms,Tear=0,Early=0,Stale=44,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=635MB,PSM=0,PLS=0,Temp=29.9C/30.0C
+11-13 00:35:43.660 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:35:43.690 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:43.760 23853 23939 I VrApi   : FPS=26,Prd=46ms,Tear=0,Early=0,Stale=46,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=635MB,PSM=0,PLS=0,Temp=29.9C/30.0C
+11-13 00:35:44.690 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:44.770 23853 23939 I VrApi   : FPS=27,Prd=47ms,Tear=0,Early=0,Stale=41,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=635MB,PSM=0,PLS=0,Temp=29.9C/30.0C
+11-13 00:35:45.690 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:45.760 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=0,Early=0,Stale=44,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=635MB,PSM=0,PLS=0,Temp=29.9C/30.0C
+11-13 00:35:46.270 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:35:46.690 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:46.760 23853 23939 I VrApi   : FPS=27,Prd=47ms,Tear=0,Early=0,Stale=42,VSnc=1,Lat=1,CPU4/GPU=2/2,900/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=635MB,PSM=0,PLS=0,Temp=29.9C/30.0C
+11-13 00:35:47.690 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:47.760 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=0,Early=0,Stale=41,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=635MB,PSM=0,PLS=0,Temp=29.9C/30.0C
+11-13 00:35:48.690 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:48.760 23853 23939 I VrApi   : FPS=27,Prd=47ms,Tear=0,Early=0,Stale=43,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=635MB,PSM=0,PLS=0,Temp=29.9C/30.0C
+11-13 00:35:48.870 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:35:49.690 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:49.760 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=0,Early=0,Stale=40,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=636MB,PSM=0,PLS=0,Temp=29.9C/30.0C
+11-13 00:35:50.700 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:50.760 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=0,Early=0,Stale=43,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=636MB,PSM=0,PLS=0,Temp=29.9C/30.0C
+11-13 00:35:51.470 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:35:51.700 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:51.760 23853 23939 I VrApi   : FPS=27,Prd=47ms,Tear=0,Early=0,Stale=48,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=651MB,PSM=0,PLS=0,Temp=30.0C/30.0C
+11-13 00:35:52.700 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:52.880 23853 23939 I VrApi   : FPS=26,Prd=46ms,Tear=0,Early=0,Stale=43,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=640MB,PSM=0,PLS=0,Temp=30.0C/30.0C
+11-13 00:35:53.700 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:53.760 23853 23939 I VrApi   : FPS=25,Prd=47ms,Tear=2,Early=0,Stale=45,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1264MHz,Free=657MB,PSM=0,PLS=0,Temp=30.0C/30.0C
+11-13 00:35:54.070 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:35:54.700 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:54.760 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=1,Early=0,Stale=45,VSnc=1,Lat=1,CPU4/GPU=2/2,900/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=657MB,PSM=0,PLS=0,Temp=30.0C/30.0C
+11-13 00:35:55.700 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:55.780 23853 23939 I VrApi   : FPS=28,Prd=48ms,Tear=0,Early=0,Stale=37,VSnc=1,Lat=1,CPU4/GPU=2/2,900/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=657MB,PSM=0,PLS=0,Temp=30.0C/30.0C
+11-13 00:35:56.670 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:35:56.700 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:56.760 23853 23939 I VrApi   : FPS=27,Prd=47ms,Tear=0,Early=0,Stale=43,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=657MB,PSM=0,PLS=0,Temp=30.0C/30.0C
+11-13 00:35:57.700 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:57.760 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=0,Early=0,Stale=42,VSnc=1,Lat=1,CPU4/GPU=2/2,900/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=656MB,PSM=0,PLS=0,Temp=30.0C/30.0C
+11-13 00:35:58.700 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:58.760 23853 23939 I VrApi   : FPS=27,Prd=47ms,Tear=0,Early=0,Stale=45,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=654MB,PSM=0,PLS=0,Temp=30.0C/30.0C
+11-13 00:35:59.260 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:35:59.700 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:35:59.760 23853 23939 I VrApi   : FPS=27,Prd=47ms,Tear=0,Early=0,Stale=44,VSnc=1,Lat=1,CPU4/GPU=2/2,900/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=660MB,PSM=0,PLS=0,Temp=30.0C/30.0C
+11-13 00:36:00.700 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:00.760 23853 23939 I VrApi   : FPS=26,Prd=46ms,Tear=0,Early=0,Stale=43,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=660MB,PSM=0,PLS=0,Temp=30.0C/30.0C
+11-13 00:36:01.700 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:01.770 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=0,Early=0,Stale=41,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=660MB,PSM=0,PLS=0,Temp=30.0C/30.0C
+11-13 00:36:01.860 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:36:02.700 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:02.760 23853 23939 I VrApi   : FPS=27,Prd=47ms,Tear=1,Early=0,Stale=44,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=660MB,PSM=0,PLS=0,Temp=30.0C/30.0C
+11-13 00:36:03.700 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:03.760 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=0,Early=0,Stale=44,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=661MB,PSM=0,PLS=0,Temp=30.0C/30.0C
+11-13 00:36:04.470 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:36:04.700 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:04.760 23853 23939 I VrApi   : FPS=27,Prd=47ms,Tear=0,Early=0,Stale=47,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=661MB,PSM=0,PLS=0,Temp=30.0C/30.0C
+11-13 00:36:05.710 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:05.760 23853 23939 I VrApi   : FPS=26,Prd=46ms,Tear=0,Early=0,Stale=47,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=661MB,PSM=0,PLS=0,Temp=30.0C/30.0C
+11-13 00:36:06.710 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:06.760 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=0,Early=0,Stale=39,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=661MB,PSM=0,PLS=0,Temp=30.0C/30.0C
+11-13 00:36:07.070 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:36:07.710 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:07.760 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=0,Early=0,Stale=43,VSnc=1,Lat=1,CPU4/GPU=2/2,900/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=661MB,PSM=0,PLS=0,Temp=30.0C/30.0C
+11-13 00:36:08.710 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:08.760 23853 23939 I VrApi   : FPS=27,Prd=47ms,Tear=0,Early=0,Stale=46,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=661MB,PSM=0,PLS=0,Temp=30.0C/30.0C
+11-13 00:36:09.660 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:36:09.710 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:09.760 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=0,Early=0,Stale=43,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=661MB,PSM=0,PLS=0,Temp=30.0C/30.0C
+11-13 00:36:10.710 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:10.760 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=0,Early=0,Stale=43,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=661MB,PSM=0,PLS=0,Temp=30.0C/30.0C
+11-13 00:36:11.710 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:11.760 23853 23939 I VrApi   : FPS=26,Prd=46ms,Tear=0,Early=0,Stale=41,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=660MB,PSM=0,PLS=0,Temp=30.2C/30.0C
+11-13 00:36:12.260 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:36:12.710 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:12.760 23853 23939 I VrApi   : FPS=27,Prd=47ms,Tear=0,Early=0,Stale=45,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=660MB,PSM=0,PLS=0,Temp=30.2C/30.0C
+11-13 00:36:13.710 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:13.770 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=0,Early=0,Stale=41,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=660MB,PSM=0,PLS=0,Temp=30.2C/30.0C
+11-13 00:36:14.710 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:14.760 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=0,Early=0,Stale=40,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=660MB,PSM=0,PLS=0,Temp=30.2C/30.0C
+11-13 00:36:14.860 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:36:15.710 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:15.770 23853 23939 I VrApi   : FPS=27,Prd=47ms,Tear=0,Early=0,Stale=43,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=660MB,PSM=0,PLS=0,Temp=30.2C/30.0C
+11-13 00:36:16.710 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:16.760 23853 23939 I VrApi   : FPS=26,Prd=46ms,Tear=0,Early=0,Stale=42,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=660MB,PSM=0,PLS=0,Temp=30.2C/30.0C
+11-13 00:36:17.450 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:36:17.710 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:17.760 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=0,Early=0,Stale=41,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=661MB,PSM=0,PLS=0,Temp=30.2C/30.0C
+11-13 00:36:18.710 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:18.760 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=0,Early=0,Stale=41,VSnc=1,Lat=1,CPU4/GPU=2/2,900/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=661MB,PSM=0,PLS=0,Temp=30.2C/30.0C
+11-13 00:36:19.710 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:19.760 23853 23939 I VrApi   : FPS=27,Prd=47ms,Tear=0,Early=0,Stale=45,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=661MB,PSM=0,PLS=0,Temp=30.2C/30.0C
+11-13 00:36:20.050 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:36:20.710 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:20.760 23853 23939 I VrApi   : FPS=27,Prd=46ms,Tear=0,Early=0,Stale=40,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=662MB,PSM=0,PLS=0,Temp=30.2C/30.0C
+11-13 00:36:21.720 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:21.760 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=0,Early=0,Stale=44,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=662MB,PSM=0,PLS=0,Temp=30.2C/30.0C
+11-13 00:36:22.640 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:36:22.720 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:22.770 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=0,Early=0,Stale=41,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=661MB,PSM=0,PLS=0,Temp=30.2C/30.0C
+11-13 00:36:23.720 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:23.760 23853 23939 I VrApi   : FPS=27,Prd=47ms,Tear=0,Early=0,Stale=43,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=662MB,PSM=0,PLS=0,Temp=30.2C/30.0C
+11-13 00:36:24.720 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:24.760 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=0,Early=0,Stale=40,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=653MB,PSM=0,PLS=0,Temp=30.2C/30.0C
+11-13 00:36:25.240 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:36:25.720 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:25.760 23853 23939 I VrApi   : FPS=27,Prd=47ms,Tear=0,Early=0,Stale=43,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=652MB,PSM=0,PLS=0,Temp=30.2C/30.0C
+11-13 00:36:26.720 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:26.760 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=0,Early=0,Stale=43,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=653MB,PSM=0,PLS=0,Temp=30.2C/30.0C
+11-13 00:36:27.720 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:27.760 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=0,Early=0,Stale=42,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=652MB,PSM=0,PLS=0,Temp=30.2C/30.0C
+11-13 00:36:27.840 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:36:28.720 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:28.760 23853 23939 I VrApi   : FPS=27,Prd=47ms,Tear=0,Early=0,Stale=44,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=653MB,PSM=0,PLS=0,Temp=30.2C/30.0C
+11-13 00:36:29.720 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:29.760 23853 23939 I VrApi   : FPS=27,Prd=47ms,Tear=0,Early=0,Stale=40,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=656MB,PSM=0,PLS=0,Temp=30.2C/30.0C
+11-13 00:36:30.430 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:36:30.720 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:30.760 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=0,Early=0,Stale=41,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=657MB,PSM=0,PLS=0,Temp=30.2C/30.0C
+11-13 00:36:31.720 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:31.760 23853 23939 I VrApi   : FPS=26,Prd=46ms,Tear=0,Early=0,Stale=41,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=656MB,PSM=0,PLS=0,Temp=30.3C/30.0C
+11-13 00:36:32.720 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:32.760 23853 23939 I VrApi   : FPS=27,Prd=47ms,Tear=0,Early=0,Stale=46,VSnc=1,Lat=1,CPU4/GPU=2/2,900/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=655MB,PSM=0,PLS=0,Temp=30.3C/30.0C
+11-13 00:36:33.040 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:36:33.720 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:33.760 23853 23939 I VrApi   : FPS=25,Prd=47ms,Tear=0,Early=0,Stale=43,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=655MB,PSM=0,PLS=0,Temp=30.3C/30.0C
+11-13 00:36:34.720 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:34.760 23853 23939 I VrApi   : FPS=27,Prd=47ms,Tear=0,Early=0,Stale=40,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=656MB,PSM=0,PLS=0,Temp=30.3C/30.0C
+11-13 00:36:35.640 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:36:35.720 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:35.760 23853 23939 I VrApi   : FPS=27,Prd=48ms,Tear=0,Early=0,Stale=43,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=656MB,PSM=0,PLS=0,Temp=30.3C/30.0C
+11-13 00:36:36.730 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:36.760 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=1,Early=0,Stale=44,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=655MB,PSM=0,PLS=0,Temp=30.3C/30.0C
+11-13 00:36:37.730 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:37.760 23853 23939 I VrApi   : FPS=27,Prd=47ms,Tear=0,Early=0,Stale=43,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=655MB,PSM=0,PLS=0,Temp=30.3C/30.0C
+11-13 00:36:38.240 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:36:38.730 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:38.770 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=0,Early=0,Stale=42,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=655MB,PSM=0,PLS=0,Temp=30.3C/30.0C
+11-13 00:36:39.730 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:39.760 23853 23939 I VrApi   : FPS=25,Prd=47ms,Tear=0,Early=0,Stale=41,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=655MB,PSM=0,PLS=0,Temp=30.3C/30.0C
+11-13 00:36:40.730 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:40.760 23853 23939 I VrApi   : FPS=27,Prd=47ms,Tear=0,Early=0,Stale=44,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=655MB,PSM=0,PLS=0,Temp=30.3C/30.0C
+11-13 00:36:40.830 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:36:41.730 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:41.760 23853 23939 I VrApi   : FPS=27,Prd=48ms,Tear=0,Early=0,Stale=39,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=655MB,PSM=0,PLS=0,Temp=30.3C/30.0C
+11-13 00:36:42.730 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:42.760 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=0,Early=0,Stale=43,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=655MB,PSM=0,PLS=0,Temp=30.3C/30.0C
+11-13 00:36:43.430 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:36:43.730 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:43.760 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=0,Early=0,Stale=44,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=655MB,PSM=0,PLS=0,Temp=30.3C/30.0C
+11-13 00:36:44.730 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:44.760 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=0,Early=0,Stale=43,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=655MB,PSM=0,PLS=0,Temp=30.3C/30.0C
+11-13 00:36:45.730 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:45.760 23853 23939 I VrApi   : FPS=26,Prd=46ms,Tear=0,Early=0,Stale=42,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=655MB,PSM=0,PLS=0,Temp=30.3C/30.0C
+11-13 00:36:46.030 23853 23936 I OVR     : PhoneManagerThread - phone running! nfds=1
+11-13 00:36:46.730 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:46.760 23853 23939 I VrApi   : FPS=27,Prd=47ms,Tear=0,Early=0,Stale=43,VSnc=1,Lat=1,CPU4/GPU=2/2,800/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=655MB,PSM=0,PLS=0,Temp=30.3C/30.0C
+11-13 00:36:47.730 23853 23935 I OVR     : DeviceManagerThread - poll(fds,1,1000) = 0 (Tid=23935)
+11-13 00:36:47.760 23853 23939 I VrApi   : FPS=26,Prd=47ms,Tear=0,Early=0,Stale=43,VSnc=1,Lat=1,CPU4/GPU=2/2,1000/420MHz,OC=FF,TA=F0/F0/F0/F0,SP=F/F/F/F,Mem=1026MHz,Free=654MB,PSM=0,PLS=0,Temp=30.3C/30.0C
